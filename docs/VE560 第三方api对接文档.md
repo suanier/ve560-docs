@@ -78,7 +78,7 @@
 
 https://[域名]/[版本号]/[接口名]
 
-例：https://e560.visbody.com/v1/token
+例：http://api.e560.visbody.com/v1/token
 
 | 实例 | 说明 |
 | --- | --- |
@@ -93,9 +93,9 @@ https://[域名]/[版本号]/[接口名]
 
 ```
 HTTP GET:
-https://e560.visbody.com/v1/token
+http://api.e560.visbody.com/v1/token
 // v2版本
-https://e560.visbody.com/v2/token
+http://api.e560.visbody.com/v2/token
 ```
 
 ### 2.3 POST提交方式
@@ -172,7 +172,7 @@ Content-Type: application/json
 **请求URL：**
 
 ```
-https://e560.visbody.com/appAuth/menuCallBack
+http://api.e560.visbody.com/appAuth/menuCallBack
 ```
 
 **请求方式：**
@@ -473,7 +473,7 @@ https://e560.visbody.com/appAuth/menuCallBack
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/token`
+- `http://api.e560.visbody.com/v1/token`
 
 **请求方式：**
 
@@ -541,7 +541,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/dataBind`
+- `http://api.e560.visbody.com/v1/dataBind`
 
 **请求方式：**
 
@@ -609,7 +609,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/measure/file`
+- `http://api.e560.visbody.com/v1/measure/file`
 
 **请求方式：**
 
@@ -655,7 +655,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/measure/mass`
+- `http://api.e560.visbody.com/v1/measure/mass`
 
 **请求方式：**
 
@@ -733,7 +733,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/measure/girth`
+- `http://api.e560.visbody.com/v1/measure/girth`
 
 **请求方式：**
 
@@ -791,7 +791,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/body/state`
+- `http://api.e560.visbody.com/v1/body/state`
 
 **请求方式：**
 
@@ -831,7 +831,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/body/score`
+- `http://api.e560.visbody.com/v1/body/score`
 
 **请求方式：**
 
@@ -874,7 +874,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/shape/file`
+- `http://api.e560.visbody.com/v1/shape/file`
 
 **请求方式：**
 
@@ -926,7 +926,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/shape/points`
+- `http://api.e560.visbody.com/v1/shape/points`
 
 **请求方式：**
 
@@ -1025,7 +1025,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/plantar/pressure`
+- `http://api.e560.visbody.com/v1/plantar/pressure`
 
 **请求方式：**
 
@@ -1082,7 +1082,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/neck/data`
+- `http://api.e560.visbody.com/v1/neck/data`
 
 **请求方式：**
 
@@ -1180,7 +1180,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/seg/spread/file`
+- `http://api.e560.visbody.com/v1/seg/spread/file`
 
 **请求方式：**
 
@@ -1228,7 +1228,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/seg/spread/data`
+- `http://api.e560.visbody.com/v1/seg/spread/data`
 
 **请求方式：**
 
@@ -1300,7 +1300,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/forecast/file`
+- `http://api.e560.visbody.com/v1/forecast/file`
 
 **请求方式：**
 
@@ -1342,7 +1342,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/forecast/adjust`
+- `http://api.e560.visbody.com/v1/forecast/adjust`
 
 **请求方式：**
 
@@ -1394,7 +1394,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/report/msg`
+- `http://api.e560.visbody.com/v1/report/msg`
 
 **请求方式：**
 
@@ -1448,7 +1448,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 
 **请求URL：**
 
-- `https://e560.visbody.com/v1/report/pdf`
+- `http://api.e560.visbody.com/v1/report/pdf`
 
 **请求方式：**
 
